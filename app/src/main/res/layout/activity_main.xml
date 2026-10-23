@@ -5,15 +5,92 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/Fondo">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fondo_redondo"
+        android:text="B"
+        android:padding="5dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#1DB954"
+        android:text="Tot"
+        app:cornerRadius="30dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#121212"
+        android:text="Música"
+        app:cornerRadius="30dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="16dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#1DB954"/>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#121212"
+        android:text="Pòdcasts"
+        app:cornerRadius="30dp"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="16dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#1DB954"/>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:clipToOutline="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/redonda_lista_spotify"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <ImageView
+            android:id="@+id/imgCoche"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/img_lista_spotify"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="8dp"
+            android:text="🚗🚗"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
