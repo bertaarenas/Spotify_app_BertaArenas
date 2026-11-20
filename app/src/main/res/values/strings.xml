@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Spotify</string>
+
+    <string name="inicial_perfil">B</string>
+    <string name="filtro_tot">Tot</string>
+    <string name="filtro_musica">Música</string>
+    <string name="filtro_podcasts">Pòdcasts</string>
+
+    <string name="tile_1">🚗🚗</string>
+    <string name="tile_2">❤️‍​💚​</string>
+    <string name="tile_3">🥳​🥳​🥳​</string>
+    <string name="tile_4">10/15🌟​</string>
+    <string name="tile_5">💅​💅​⭐​</string>
+    <string name="tile_6">Lista tren</string>
+
+    <string name="titulo_seccion">Álbums amb cançons que t'agraden</string>
+    <string name="portada_1">SORDO DE UN PIE</string>
+    <string name="portada_2">YHLQMDLG</string>
+    <string name="portada_3">Belladonna</string>
+    <string name="portada_4">Eternity</string>
+
+    <string name="sec2_titulo">Escoltat recentment</string>
+    <string name="sec2_p1">4 kissus</string>
+    <string name="sec2_p2">FRIKI</string>
+    <string name="sec2_p3">Que Malo</string>
+    <string name="sec2_p4">DIABLA</string>
+
+    <string name="sec3_titulo">Artistes populars</string>
+    <string name="sec3_p1">Lucho RK</string>
+    <string name="sec3_p2">Bruno Mars</string>
+    <string name="sec3_p3">Bad Bunny</string>
+    <string name="sec3_p4">Rihanna</string>
 </resources>
